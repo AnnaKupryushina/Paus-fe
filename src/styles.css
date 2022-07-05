@@ -1,0 +1,21 @@
+.main, .home-container {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.home-container {
+  padding-top: 2rem;
+}
+
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield !important;
+}

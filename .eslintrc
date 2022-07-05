@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "react-hooks"
+  ],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["warn", "single"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": 0,
+    "react/jsx-indent": ["error", "tab"],
+    "react/jsx-indent-props":  ["error", "tab"],
+    "indent": ["error", "tab"],
+    "no-tabs": "off",
+    "comma-dangle": "off",
+    "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
+    "object-curly-newline": "off",
+    "sort-imports": ["error" , { "ignoreCase": true, "allowSeparatedGroups": true, "memberSyntaxSortOrder": ["none", "all", "single", "multiple"] }],
+    "no-nested-ternary": "off",
+    "default-param-last": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}
